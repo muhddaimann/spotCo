@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "spotco",
+    "slug": "spotco",
     "version": "0.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
