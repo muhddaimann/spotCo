@@ -1,3 +1,4 @@
+import TemplateHome from "@/components/b/templateHome";
 import UserCard from "@/components/b/userCard";
 import TopFAB from "@/components/topFAB";
 import { useTabVisibility } from "@/contexts/bottomContext";
@@ -41,15 +42,7 @@ export default function Dashboard() {
         <UserCard />
 
         <View style={styles.body}>
-          <View
-            style={[
-              styles.card,
-              {
-                backgroundColor: theme.colors.surface,
-                shadowColor: theme.colors.shadow,
-              },
-            ]}
-          ></View>
+          <TemplateHome />
         </View>
       </ScrollView>
 

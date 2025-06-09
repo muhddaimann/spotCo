@@ -1,56 +1,58 @@
-template/
-├─ app/
-│  ├─ (tabs)/
-│  │  ├─ a/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ b/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ c/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ d/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  └─ _layout.tsx
-│  ├─ _layout.tsx
-│  ├─ goodbye.tsx
-│  ├─ index.tsx
-│  └─ welcome.tsx
-├─ assets/
-│  ├─ fonts/
-│  │  └─ SpaceMono-Regular.ttf
-│  └─ images/
-│     ├─ favicon.png
-│     ├─ icon.png
-│     └─ splash.png
-├─ components/
-│  ├─ a/
-│  │  └─ userCard.tsx
-│  ├─ b/
-│  │  └─ userCard.tsx
-│  ├─ c/
-│  │  └─ userCard.tsx
-│  ├─ d/
-│  │  └─ userCard.tsx
-│  ├─ bottomNav.tsx
-│  ├─ logoutFAB.tsx
-│  ├─ sectionHeader.tsx
-│  ├─ skeletonLoad.tsx
-│  ├─ toastBar.tsx
-│  └─ topFAB.tsx
-├─ constants/
-│  ├─ color.ts
-│  └─ theme.ts
-├─ contexts/
-│  ├─ api/
-│  │  └─ api.tsx
-│  ├─ authContext.tsx
-│  ├─ bottomContext.tsx
-│  ├─ themeContext.tsx
-│  └─ tokenContext.tsx
-├─ hooks/
-│  ├─ useBottomNav.tsx
-│  └─ useToast.tsx
+spotCo/
+├─ Overview/
+│   └─ A mobile app that helps students, tutors, freelancers, and teams discover and reserve study spots, solo desks, or private rooms by the hour or day. Think of it as a Grab for study spaces.
+│
+├─ User Persona/
+│   ├─ Student A
+│   │   └─ Books quiet seats to study or revise with friends
+│   ├─ Freelancer B
+│   │   └─ Needs a plug, fast WiFi, and a solo seat for remote work
+│   ├─ Tutor C
+│   │   └─ Books small private rooms for weekly lessons
+│   └─ Startup Team D
+│       └─ Reserves group tables for brainstorm sessions
+│
+├─ Core Features/
+│   ├─ Discover Nearby Spots
+│   │   └─ Filter by amenities, noise level, and capacity
+│   ├─ Real-time Booking
+│   │   └─ View live availability and select time slots
+│   ├─ QR Check-in
+│   │   └─ QR code generated after booking for access
+│   ├─ Smart Reminders
+│   │   └─ Notify users of check-in, session end, and promos
+│   ├─ History and Wallet
+│   │   └─ View previous bookings and manage credit system
+│   └─ Payment Gateway
+│       └─ Pay per session or subscribe to prepaid plans
+│
+├─ Each Tabs Feature Suggestion/
+│   ├─ Home/
+│   │   ├─ Nearby study spaces with list or map view
+│   │   ├─ Highlighted promos or last-minute free slots
+│   │   └─ Quick filters such as solo desk, quiet zone, AC with plug
+│   │
+│   ├─ Book/
+│   │   ├─ Calendar slot picker by location
+│   │   ├─ Room or seat selection with capacity, images, and available times
+│   │   └─ Confirm and pay to receive booking pass
+│   │
+│   ├─ MyBookings/
+│   │   ├─ Upcoming sessions with edit and cancel option
+│   │   ├─ Booking history with filtering and export option
+│   │   └─ Rewards or credit balance summary
+│   │
+│   └─ Settings/
+│       ├─ Profile management and payment method
+│       ├─ Notification preferences and toggle controls
+│       └─ Help section with contact support and FAQs
+│
+├─ Expansion/
+│   ├─ Partner with cafes, libraries, and coworking spaces
+│   ├─ Support recurring weekly bookings for tutors or teams
+│   ├─ Launch monthly subscription plan called StudyPass
+│   ├─ Introduce referral system with rewards
+│   └─ Build enterprise portal for schools and offices to bulk-book rooms
+
+
 

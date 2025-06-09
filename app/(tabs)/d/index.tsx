@@ -53,7 +53,7 @@ export default function Settings() {
           <List.Subheader
             style={{
               color: theme.colors.onSurface,
-              fontSize: wp("4.5%"),
+              fontSize: wp("4.4%"),
               fontWeight: "600",
             }}
           >
@@ -79,7 +79,7 @@ export default function Settings() {
           <List.Subheader
             style={{
               color: theme.colors.onSurface,
-              fontSize: wp("4.5%"),
+              fontSize: wp("4.4%"),
               fontWeight: "600",
             }}
           >
@@ -90,16 +90,60 @@ export default function Settings() {
             left={(props) => <List.Icon {...props} icon="bell-outline" />}
             right={() => <Switch value={true} onValueChange={() => {}} />}
           />
+        </List.Section>
+
+        <List.Section>
+          <List.Subheader
+            style={{
+              color: theme.colors.onSurface,
+              fontSize: wp("4.4%"),
+              fontWeight: "600",
+            }}
+          >
+            Account
+          </List.Subheader>
           <List.Item
-            title="Email Notifications"
-            left={(props) => <List.Icon {...props} icon="email-outline" />}
-            right={() => <Switch value={false} onValueChange={() => {}} />}
+            title="Profile Management"
+            left={(props) => (
+              <List.Icon {...props} icon="account-edit-outline" />
+            )}
+            onPress={() => {}}
+          />
+          <List.Item
+            title="Payment Methods"
+            left={(props) => (
+              <List.Icon {...props} icon="credit-card-outline" />
+            )}
+            onPress={() => {}}
+          />
+        </List.Section>
+
+        <List.Section>
+          <List.Subheader
+            style={{
+              color: theme.colors.onSurface,
+              fontSize: wp("4.4%"),
+              fontWeight: "600",
+            }}
+          >
+            Help & Support
+          </List.Subheader>
+          <List.Item
+            title="Contact Support"
+            left={(props) => <List.Icon {...props} icon="lifebuoy" />}
+            onPress={() => {}}
+          />
+          <List.Item
+            title="FAQs"
+            left={(props) => (
+              <List.Icon {...props} icon="help-circle-outline" />
+            )}
+            onPress={() => {}}
           />
         </List.Section>
       </ScrollView>
 
       <TopFAB visible={showFab} scrollRef={scrollRef} />
-
       <LogoutFAB visible={showLogoutFab} />
     </>
   );
@@ -110,6 +154,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   contentContainer: {
-    paddingBottom: wp("10%"),
+    paddingBottom: wp("30%"),
   },
 });

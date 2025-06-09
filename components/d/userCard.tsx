@@ -50,7 +50,6 @@ const styles = StyleSheet.create({
     height: wp("25%"),
     borderBottomLeftRadius: wp("4%"),
     borderBottomRightRadius: wp("4%"),
-    marginBottom: wp("3%"),
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 1,

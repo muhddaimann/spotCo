@@ -1,4 +1,5 @@
 import UserCard from "@/components/c/userCard";
+import TemplateHome from "@/components/c/templateHome";
 import TopFAB from "@/components/topFAB";
 import { useTabVisibility } from "@/contexts/bottomContext";
 import { useScrollDirection } from "@/hooks/useBottomNav";
@@ -41,15 +42,7 @@ export default function Reporting() {
         <UserCard />
 
         <View style={styles.body}>
-          <View
-            style={[
-              styles.card,
-              {
-                backgroundColor: theme.colors.surface,
-                shadowColor: theme.colors.shadow,
-              },
-            ]}
-          ></View>
+        <TemplateHome />
         </View>
       </ScrollView>
 

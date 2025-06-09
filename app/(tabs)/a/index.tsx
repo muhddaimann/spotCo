@@ -1,3 +1,4 @@
+import TemplateHome from "@/components/a/templateHome";
 import UserCard from "@/components/a/userCard";
 import SkeletonLoad from "@/components/skeletonLoad";
 import TopFAB from "@/components/topFAB";
@@ -78,15 +79,7 @@ export default function Home() {
             {loading ? (
               <SkeletonLoad />
             ) : (
-              <View
-                style={[
-                  styles.card,
-                  {
-                    backgroundColor: theme.colors.surface,
-                    shadowColor: theme.colors.shadow,
-                  },
-                ]}
-              />
+              <TemplateHome />
             )}
           </View>
         </View>
